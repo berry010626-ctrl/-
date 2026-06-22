@@ -109,3 +109,12 @@ export default function Home() {
               </div>
             </section>
           )}
+
+          {stage === "result" && <ResultScreen type={resultType} onRestart={restart} />}
+        </div>
+
+        <footer className="app-footer">MAYBLUE · 비 오는 날에도 무드는 챙기세요</footer>
+      </div>
+    </>
+  );
+}
