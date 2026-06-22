@@ -63,8 +63,8 @@ a{ color:inherit; }
   margin-bottom:18px;
 }
 .brand{
-  font-family:'Jua', sans-serif;
-  font-size:15px; letter-spacing:1px;
+  font-family:'Pretendard', -apple-system, sans-serif;
+  font-size:15px; font-weight:800; letter-spacing:0.5px;
   color:var(--rain-yellow);
 }
 .brand span{ color:var(--ink-dim); font-family:'Pretendard'; font-weight:600; font-size:12px; margin-left:6px; }
@@ -123,9 +123,9 @@ a{ color:inherit; }
   padding:6px 14px; border-radius:999px; margin-bottom:18px;
 }
 .intro-title{
-  font-family:'Jua', sans-serif;
-  font-size:30px; line-height:1.5; color:var(--ink);
-  letter-spacing:0.5px;
+  font-family:'Pretendard', -apple-system, sans-serif;
+  font-size:30px; font-weight:800; line-height:1.45; color:var(--ink);
+  letter-spacing:-0.3px;
   margin:0 0 14px;
 }
 .intro-title em{ color:var(--rain-yellow); font-style:normal; }
@@ -159,8 +159,9 @@ a{ color:inherit; }
   letter-spacing:.3px;
 }
 .q-text{
-  font-family:'Jua', sans-serif;
-  font-size:22px; line-height:1.45; margin:0 0 26px; color:var(--ink);
+  font-family:'Pretendard', -apple-system, sans-serif;
+  font-size:22px; font-weight:700; line-height:1.5; margin:0 0 26px; color:var(--ink);
+  letter-spacing:-0.2px;
 }
 .options{ display:flex; flex-direction:column; gap:10px; }
 .opt-btn{
@@ -201,8 +202,9 @@ a{ color:inherit; }
 }
 .result-emoji{ font-size:52px; margin-bottom:6px; }
 .result-title{
-  font-family:'Jua', sans-serif;
-  font-size:27px; color:var(--rain-yellow); margin:0 0 14px; line-height:1.4;
+  font-family:'Pretendard', -apple-system, sans-serif;
+  font-size:27px; font-weight:800; color:var(--rain-yellow); margin:0 0 14px; line-height:1.4;
+  letter-spacing:-0.3px;
 }
 .result-desc{
   font-size:14.5px; color:var(--ink-dim); line-height:1.7; margin:0 0 8px; text-align:left;
@@ -286,7 +288,7 @@ footer.app-footer{
   padding:36px 28px; box-shadow:var(--shadow-deep); border:1px solid var(--line);
 }
 .admin-title{
-  font-family:'Jua', sans-serif; font-size:22px; margin:0 0 8px; color:var(--ink);
+  font-family:'Pretendard', -apple-system, sans-serif; font-weight:800; font-size:22px; margin:0 0 8px; color:var(--ink);
 }
 .admin-desc{ font-size:13.5px; color:var(--ink-dim); margin:0 0 24px; line-height:1.6; }
 .admin-input{
