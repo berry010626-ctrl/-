@@ -78,13 +78,7 @@ export default function ResultScreen({ type, onRestart }: ResultScreenProps) {
             <div className="product-empty">아직 등록된 코디가 없어요. 구글 시트에 제품을 추가해보세요.</div>
           )}
           {products?.map((p, i) => (
-            
-              key={i}
-              className="product-card"
-              href={p.link || "#"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a key={i} className="product-card" href={p.link || "#"} target="_blank" rel="noopener noreferrer">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="product-img"
