@@ -71,11 +71,11 @@ export default function Home() {
               <div className="intro-card">
                 <span className="intro-eyebrow">☔ 2026 장마 특집</span>
                 <h1 className="intro-title">
-                  이 장마,
+                  이번 장마,
                   <br />
-                  당신은 <em>어떤 무드</em>로
+                  나는 <em>어떻게</em>
                   <br />
-                  버티는 사람일까?
+                  보내게 될까?
                 </h1>
                 <p className="intro-desc">
                   축축한 날씨에도 스타일은 포기 못 하는 당신.
