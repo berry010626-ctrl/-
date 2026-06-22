@@ -1,0 +1,27 @@
+:root{
+  --bg-deep:#121F38;
+  --bg-card:#1C3052;
+  --bg-card-raise:#243C61;
+  --ink:#F4F1E8;
+  --ink-dim:#A9B7D1;
+  --rain-yellow:#FFCF3F;
+  --rain-yellow-deep:#E8B321;
+  --mint:#7FE3C4;
+  --coral:#FF7A6B;
+  --line:rgba(244,241,232,0.12);
+  --shadow-deep: 0 24px 60px rgba(5,10,25,0.55);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+}
+
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 18% -10%, rgba(127,227,196,0.10), transparent 45%),
+    radial-gradient(circle at 85% 0%, rgba(255,207,63,0.08), transparent 40%),
+    linear-gradient(180deg, #0E1830 0%, #121F38 40%, #0F1C36 100%);
+  color:var(--ink);
+  font-family:'Pretendard',
